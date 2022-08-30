@@ -20,7 +20,7 @@ export default function Home() {
       if (tempStr.length > 0 ){   
         randomNum = Math.floor(Math.random()*3); //[0,1,2]
         i=0; randomArray=[]; //randomize the randomArray.
-        if (randomNum > 0){
+        if (randomNum > 0){       
           while (i < randomNum){ 
             randomArray.push(Math.floor(Math.random()*(tempStr.length+1))+startPos); //position : involved endPos. >=startPos+1
             i++;
